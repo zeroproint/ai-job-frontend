@@ -130,3 +130,53 @@
        [后端 6. 更新数据库 status=1，返回结果]
               │
        [前端 7. uCharts 渲染雷达图/柱状图]
+🛠️ 技术栈
+前端 (Frontend)
+框架：UniApp (Vue3 + Vite + TypeScript)
+
+UI 与图表：uCharts、自定义组件库
+
+网络：封装 uni.request (统一拦截器、异常处理、轮询机制)
+
+后端 (Backend)
+核心框架：Spring Boot 3.x (Java 17)
+
+数据库：MySQL 8.0 + MyBatis-Plus
+
+AI 集成：WebClient (异步调用 Dify API)
+
+文件解析：Apache PDFBox、Apache POI
+
+其他：异步线程池 (@Async)、全局异常处理
+
+AI 引擎 (AI Engine)
+平台：Dify
+
+工作流：文档提取器 -> LLM 节点 (DeepSeek) -> 代码节点 (Python 正则清洗与 JSON 校验兜底)
+
+🚀 本地运行指南
+1. 数据库准备
+在 MySQL 中创建数据库 ai-job-backend，并执行项目根目录下的 sql/init.sql 建表脚本。
+
+2. 后端启动 (Spring Boot)
+进入 ai-job-backend 目录。
+
+修改 src/main/resources/application.yml 中的数据库密码和 Dify API Key。
+
+使用 IDEA 运行 AiJobBackendApplication.java，服务默认运行在 http://localhost:8080。
+
+3. 前端启动 (UniApp)
+进入 ai-job-frontend 目录。
+
+运行 npm install 安装依赖。
+
+运行 npm run dev:h5 (或使用 HBuilderX 运行到浏览器)。
+
+👨‍💻 开发者 (Developer)
+作者：zsq
+
+GitHub：@zeroproint
+
+开发模式：Vibe Coding (Cursor + Claude 辅助全栈开发)
+
+项目状态：核心简历诊断与求职检索闭环已完成，扩展页面持续迭代中。
