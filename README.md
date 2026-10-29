@@ -18,33 +18,33 @@
 
 | 首页与导航 | 上传简历与解析 | AI 异步分析中 | 历史记录 (真实数据) |
 | :---: | :---: | :---: | :---: |
-| <img src="./image/home.jpg" width="200" /> | <img src="./image/upload.jpg" width="200" /> | <img src="./image/loading.jpg" width="200" /> | <img src="./image/history.jpg" width="200" /> |
+| <img src="./image/home.png" width="200" /> | <img src="./image/upload.png" width="200" /> | <img src="./image/loading.png" width="200" /> | <img src="./image/history.png" width="200" /> |
 
 ### 2. AI 简历诊断报告详情 (长图截取)
 
 | 总分与评价 | 职位匹配度 | 结构层次指数 |
 | :---: | :---: | :---: |
-| <img src="./image/report1.jpg" width="220" /> | <img src="./image/report2.jpg" width="220" /> | <img src="./image/report3.jpg" width="220" /> |
+| <img src="./image/report1.png" width="220" /> | <img src="./image/report2.png" width="220" /> | <img src="./image/report3.png" width="220" /> |
 
 | 视觉美观指数 | 五维雷达图 (整体能力) |
 | :---: | :---: |
-| <img src="./image/report4.jpg" width="250" /> | <img src="./image/report5.jpg" width="250" /> |
+| <img src="./image/report4.png" width="250" /> | <img src="./image/report5.png" width="250" /> |
 
 ### 3. 求职与筛选模块
 
 | 岗位搜索 (关键字) | 岗位多条件筛选 | 职位详情页 |
 | :---: | :---: | :---: |
-| <img src="./image/search-java.jpg" width="220" /> | <img src="./image/filter.jpg" width="220" /> | <img src="./image/job_detail.jpg" width="220" /> |
+| <img src="./image/search-java.png" width="220" /> | <img src="./image/filter.png" width="220" /> | <img src="./image/job_detail.png" width="220" /> |
 
 ### 4. 个人中心与扩展模块 (UI 静态高保真还原)
 
 | 我的页面 | 个人信息编辑 |
 | :---: | :---: |
-| <img src="./image/profile1.jpg" width="250" /> | <img src="./image/profile2.jpg" width="250" /> |
+| <img src="./image/profile1.png" width="250" /> | <img src="./image/profile2.png" width="250" /> |
 
 | 职位简历报告列表 | AI 模拟面试 (深色主题) | 面试列表 | 面试报告 |
 | :---: | :---: | :---: | :---: |
-| <img src="./image/match_list.jpg" width="200" /> | <img src="./image/mock_interview.jpg" width="200" /> | <img src="./image/interview_list.jpg" width="200" /> | <img src="./image/interview_report.jpg" width="200" /> |
+| <img src="./image/match_list.png" width="200" /> | <img src="./image/mock_interview.png" width="200" /> | <img src="./image/interview_list.png" width="200" /> | <img src="./image/interview_report.png" width="200" /> |
 
 ---
 
