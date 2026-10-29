@@ -16,35 +16,89 @@
 
 ### 1. 核心业务闭环 (已完成前后端联调)
 
-| 首页与导航 | 上传简历与解析 | AI 异步分析中 | 历史记录 (真实数据) |
-| :---: | :---: | :---: | :---: |
-| <img src="./image/home.png" width="200" /> | <img src="./image/upload.png" width="200" /> | <img src="./image/loading.png" width="200" /> | <img src="./image/history.png" width="200" /> |
+**首页与导航**
+> 平台主入口，提供简历诊断与求职列表两大核心功能。
+![首页](./image/home.png)
+
+**上传简历与解析**
+> 支持 PDF、Word、TXT 真实文件上传，后端自动提取纯文本并落库。
+![上传](./image/upload.png)
+
+**AI 异步分析中**
+> 前端实现 2 秒轮询机制，配合后端异步任务，展示真实的生成状态。
+![分析中](./image/loading.png)
+
+**历史记录 (真实数据)**
+> 从 MySQL 数据库真实查询历次分析报告，支持点击回溯。
+![历史](./image/history.png)
+
+---
 
 ### 2. AI 简历诊断报告详情 (长图截取)
 
-| 总分与评价 | 职位匹配度 | 结构层次指数 |
-| :---: | :---: | :---: |
-| <img src="./image/report1.png" width="220" /> | <img src="./image/report2.png" width="220" /> | <img src="./image/report3.png" width="220" /> |
+**总分与评价**
+> 展示大模型评估的最终得分、环形图与综合评价。
+![报告1](./image/report1.png)
 
-| 视觉美观指数 | 五维雷达图 (整体能力) |
-| :---: | :---: |
-| <img src="./image/report4.png" width="250" /> | <img src="./image/report5.png" width="250" /> |
+**职位匹配度**
+> 基于专业技能、经验等维度的柱状图展示与 AI 建议。
+![报告2](./image/report2.png)
+
+**结构层次指数**
+> 评估简历的排版逻辑与模块完整性。
+![报告3](./image/report3.png)
+
+**视觉美观指数**
+> 评估简历的视觉设计与颜色搭配。
+![报告4](./image/report4.png)
+
+**五维雷达图 (整体能力)**
+> 综合呈现候选人的各项能力维度。
+![报告5](./image/report5.png)
+
+---
 
 ### 3. 求职与筛选模块
 
-| 岗位搜索 (关键字) | 岗位多条件筛选 | 职位详情页 |
-| :---: | :---: | :---: |
-| <img src="./image/search-java.png" width="220" /> | <img src="./image/filter.png" width="220" /> | <img src="./image/job_detail.png" width="220" /> |
+**岗位搜索 (关键字)**
+> 支持按技术栈（如 Java）进行模糊检索，后端动态拼接 SQL。
+![搜索](./image/search-java.png)
+
+**岗位多条件筛选**
+> 左侧分类导航与右侧选项联动，支持学历、经验、薪资等多维度过滤。
+![筛选](./image/filter.png)
+
+**职位详情页**
+> 展示完整的 JD 信息、技能标签及 AI 模拟面试入口。
+![职位详情](./image/job_detail.png)
+
+---
 
 ### 4. 个人中心与扩展模块 (UI 静态高保真还原)
 
-| 我的页面 | 个人信息编辑 |
-| :---: | :---: |
-| <img src="./image/profile1.png" width="250" /> | <img src="./image/profile2.png" width="250" /> |
+**我的页面**
+> 个人中心主页，展示用户基本信息及快捷入口。
+![我的](./image/profile1.png)
 
-| 职位简历报告列表 | AI 模拟面试 (深色主题) | 面试列表 | 面试报告 |
-| :---: | :---: | :---: | :---: |
-| <img src="./image/match_list.png" width="200" /> | <img src="./image/mock_interview.png" width="200" /> | <img src="./image/interview_list.png" width="200" /> | <img src="./image/interview_report.png" width="200" /> |
+**个人信息编辑**
+> 支持修改头像、基础信息及保存。
+![编辑](./image/profile2.png)
+
+**职位简历报告列表**
+> 展示用户所有投递职位的简历匹配报告。
+![匹配列表](./image/match_list.png)
+
+**AI 模拟面试 (深色主题)**
+> 沉浸式深色主题，支持摄像头预览与语音答题状态管理。
+![模拟面试](./image/mock_interview.png)
+
+**面试列表**
+> 历史面试记录与状态统计。
+![面试列表](./image/interview_list.png)
+
+**面试报告**
+> 逐题展示大模型针对面试回答给出的优化建议。
+![面试报告](./image/interview_report.png)
 
 ---
 
